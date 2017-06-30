@@ -10,17 +10,17 @@ library.init = function(params, callback) {
 	var app = params.router;
 	var middleware = params.middleware;
 
-	app.get('/admin/plugins/persona', middleware.admin.buildHeader, renderAdmin);
-	app.get('/api/admin/plugins/persona', renderAdmin);
+	app.get('/admin/plugins/jiang', middleware.admin.buildHeader, renderAdmin);
+	app.get('/api/admin/plugins/jiang', renderAdmin);
 
 	callback();
 };
 
 library.addAdminNavigation = function(header, callback) {
 	header.plugins.push({
-		route: '/plugins/persona',
+		route: '/plugins/jiang',
 		icon: 'fa-paint-brush',
-		name: 'Persona Theme'
+		name: 'Jiang Theme'
 	});
 
 	callback(null, header);
@@ -89,7 +89,7 @@ library.defineWidgetAreas = function(areas, callback) {
 
 library.getThemeConfig = function(config, callback) {
 
-	meta.settings.get('persona', function(err, settings) {
+	meta.settings.get('jiang', function(err, settings) {
 		config.hideSubCategories = settings.hideSubCategories === 'on';
 		config.hideCategoryLastPost = settings.hideCategoryLastPost === 'on';
 		config.enableQuickReply = settings.enableQuickReply === 'on';
@@ -99,7 +99,7 @@ library.getThemeConfig = function(config, callback) {
 };
 
 function renderAdmin(req, res, next) {
-	res.render('admin/plugins/persona', {});
+	res.render('admin/plugins/jiang', {});
 }
 
 library.addUserToTopic = function(data, callback) {

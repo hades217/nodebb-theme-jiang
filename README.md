@@ -1,7 +1,7 @@
-Persona theme for NodeBB
+jiang theme for NodeBB
 ====================
 
-Persona is the new default theme for NodeBB as of v0.7.1
+jiang is the new default theme for NodeBB as of v0.7.1
 
 ## Addons
 
