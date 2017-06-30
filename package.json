@@ -1,0 +1,24 @@
+{
+  "name": "nodebb-theme-jiang",
+  "version": "1.0.0",
+  "nbbpm": {
+    "compatibility": "^1.4.4"
+  },
+  "description": "Jiang theme for NodeBB",
+  "main": "theme.less",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/hades217/nodebb-theme-jiang"
+  },
+  "keywords": [
+    "nodebb",
+    "theme",
+    "forum",
+    "bootstrap",
+    "responsive"
+  ],
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/hades217/nodebb-theme-jiang"
+  }
+}
