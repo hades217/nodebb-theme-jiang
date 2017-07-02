@@ -14,13 +14,13 @@
 <footer class="container footer-wrapper footer">
 	<div class="row">
 		<div class="col-sm-12 col-md-12 col-xs-12 ">
-			<div class="col-sm-3">
+			<div class="col-sm-4">
 				<div class="footer-logo-wrapper">
 					<img src="/images/logo-color.png" alt="" >
 				</div>
 				<p>澳洲第一个IT人自己的圈子</p>
 			</div>
-			<div class="col-sm-5 social-list">
+			<div class="col-sm-4 social-list">
 				<h4 class="subtitle"><strong>关注我们</strong></h4>
 				<p><span class="social-icon"><img src="/images/icons/email.svg" alt=""></span>OzITQuan@gmail.com</p>
 				<p><span class="social-icon"><img src="/images/icons/wechat.svg" alt=""></span>uniapp001</p>
