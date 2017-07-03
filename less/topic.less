@@ -1,3 +1,7 @@
+ .topic-container{
+	max-width: 940px;
+	margin: 0 auto;
+ }
 .topic {
 	[component="post/header"] {
 		margin-top: 0px;
@@ -39,22 +43,28 @@
 		}
 
 		h1 {
-			font-size: 22px;
+			font-size: 32px;
+			font-weight: 600;
 			margin: 10px 0;
+			text-align: center;
 		}
 
 		h2 {
-			font-size: 20px;
+			font-size: 24px;
+			font-weight: 800;
+			text-align: center;
 		}
 
 		h3 {
 			text-transform: uppercase;
-			font-size: 16px;
+			font-size: 20px;
 			font-weight: 900;
+			text-align: center;
 		}
 
 		h4 {
 			font-size: 17px;
+			text-align: center;
 		}
 
 		h5 {
@@ -129,9 +139,9 @@
 	[component="post/upvote"], [component="post/downvote"] {
 		color: @gray-light;
 
-        	&:focus {
-            		text-decoration: none;
-        	}
+		&:focus {
+			text-decoration: none;
+		}
 	}
 
 	[component="post/upvote"].upvoted, [component="post/downvote"].downvoted {
@@ -234,6 +244,9 @@
 		margin-left: 61px;
 		word-wrap: break-word;
 		overflow: hidden;
+		max-width: 740px;
+		margin: 0 auto;
+
 	}
 
 	.post-tools {
@@ -333,7 +346,7 @@
 			margin-left: 1px;
 		}
 	}
-	
+
 	.quick-reply {
 		.icon {
 			position: relative;
@@ -359,21 +372,21 @@
 				.user-icon-style(46px, 2.4rem, 50%);
 			}
 		}
-		
+
 		.quickreply-message {
 			margin-left: 61px;
 			margin-bottom: 5px;
-			
+
 			@media (max-width: @screen-sm-max) {
 				margin-left: 0;
-				
+
 				[component="topic/quickreply/text"] {
 					font-size: 16px;
 					padding: 10px;
 				}
 			}
 		}
-		
+
 		[component="topic/quickreply/button"] {
 			margin-bottom: 10px;
 		}
@@ -477,6 +490,12 @@
 			}
 		}
 	}
+	p{
+		.img-responsive{
+			transform: translateX(50%);
+		}
+	}
+
 
 	.pagination-block {
 		position: fixed;

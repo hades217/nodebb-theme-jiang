@@ -1,6 +1,6 @@
 <!-- IMPORT partials/breadcrumbs.tpl -->
 <div widget-area="header"></div>
-<div class="row">
+<div class="row topic-container">
 	<div class="topic col-lg-12 col-sm-12" has-widget-class="topic col-lg-9 col-sm-12" has-widget-target="sidebar">
 
 		<h1 component="post/header" class="hidden-xs" itemprop="name">
