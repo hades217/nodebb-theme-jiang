@@ -39,6 +39,11 @@
 			font-size: 3em;
 		}
 	}
+	.topic  .posts .content {
+		.img-responsive {
+			max-width: 100%;
+		}
+	}
 }
 
 @media (max-width: @screen-md-max) {
@@ -81,15 +86,15 @@
 				color: #fff;
 				position: relative;
 				height: 60px;
-				
+
 				&:hover {
 					background: none;
 				}
-	
+
 				&:not(:last-child) {
 					border-bottom: none;
 				}
-				
+
 				.main-avatar {
 					position: absolute;
 					top: 0;
@@ -102,11 +107,11 @@
 						border-radius: 0;
 					}
 				}
-				
+
 				.members {
 					display: none;
 				}
-				
+
 				.room-name {
 					display: block;
 					overflow: hidden;
@@ -114,7 +119,7 @@
 					text-overflow: ellipsis;
 					padding-left: 60px;
 				}
-				
+
 				.teaser-content {
 					padding-left: 60px;
 					display: block;
